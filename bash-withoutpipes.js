@@ -1,6 +1,6 @@
 
 
-var cmd = require('./commands.js');
+var cmd = require('./commands-withoutpipes.js');
 process.stdout.write('prompt > ');
 
 process.stdin.on('data', function(data){
